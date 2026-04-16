@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="app.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="5a9b1421-bcab-3297-ad35-fb8c152b8289">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="glad.vcxproj"/>
+		<BuildDependency Project="external/glfw-3.4/src/glfw.vcxproj"/>
+	</Project>
+	<Project Path="glad.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="0d914498-40e5-360d-8932-88162c1f8986">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Folder Name="/CMakePredefinedTargets/">
+		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="658e27a1-8c65-3f3d-bc76-f2cf29c67960" DefaultStartup="true">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="app.vcxproj"/>
+			<BuildDependency Project="external/glfw-3.4/docs/docs.vcxproj"/>
+			<BuildDependency Project="glad.vcxproj"/>
+			<BuildDependency Project="external/glfw-3.4/src/glfw.vcxproj"/>
+		</Project>
+		<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="af3a127d-5915-32e0-857d-ec8d89e6c9b7">
+			<BuildDependency Project="ALL_BUILD.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+		<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8e391e58-fa67-3722-961d-5d85cc06358f"/>
+	</Folder>
+	<Folder Name="/GLFW3/">
+		<Project Path="external/glfw-3.4/docs/docs.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="cc058994-051c-3d44-bc1b-8642e981b703">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="external/glfw-3.4/src/glfw.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="72c9561a-8656-36e0-bc7b-13355f602a0c">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="external/glfw-3.4/uninstall.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="324ef5cf-4ded-3958-b3ad-4ac0e3ae3aca">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+		<Project Path="external/glfw-3.4/src/update_mappings.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e3e58f28-3c54-36d7-944a-e0134d5bb30a">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+	</Folder>
+</Solution>
