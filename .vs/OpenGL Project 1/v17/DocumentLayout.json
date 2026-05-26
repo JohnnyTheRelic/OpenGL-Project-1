@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\default.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:default.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\default1.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:default1.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\VAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -66,11 +66,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
@@ -87,30 +91,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "glad.c",
-              "DocumentMoniker": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\glad.c",
-              "RelativeDocumentMoniker": "glad.c",
-              "ToolTip": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\glad.c",
-              "RelativeToolTip": "glad.c",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAACYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-04-16T03:30:22.512Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CMakeLists.txt",
-              "DocumentMoniker": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\CMakeLists.txt",
-              "RelativeDocumentMoniker": "CMakeLists.txt",
-              "ToolTip": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\CMakeLists.txt",
-              "RelativeToolTip": "CMakeLists.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-04-16T03:15:25.636Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\.gitignore",
@@ -123,13 +103,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\main.cpp*",
-              "RelativeToolTip": "main.cpp*",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGUAAAAwAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-24T02:27:23.189Z",
               "EditorCaption": ""
@@ -198,6 +178,56 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "default.frag",
+              "DocumentMoniker": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\default.frag",
+              "RelativeDocumentMoniker": "default.frag",
+              "ToolTip": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\default.frag*",
+              "RelativeToolTip": "default.frag*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-10T23:50:06.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "default1.vert",
+              "DocumentMoniker": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\default1.vert",
+              "RelativeDocumentMoniker": "default1.vert",
+              "ToolTip": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\default1.vert",
+              "RelativeToolTip": "default1.vert",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-10T23:45:06.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "CMakeLists.txt",
+              "ToolTip": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\CMakeLists.txt",
+              "RelativeToolTip": "CMakeLists.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-16T03:15:25.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "glad.c",
+              "DocumentMoniker": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\glad.c",
+              "RelativeDocumentMoniker": "glad.c",
+              "ToolTip": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\glad.c",
+              "RelativeToolTip": "glad.c",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAACYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-04-16T03:30:22.512Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
               "Title": "shaderClass.cpp",
               "DocumentMoniker": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\shaderClass.cpp",
@@ -219,32 +249,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-04-10T23:51:45.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "default.frag",
-              "DocumentMoniker": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\default.frag",
-              "RelativeDocumentMoniker": "default.frag",
-              "ToolTip": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\default.frag",
-              "RelativeToolTip": "default.frag",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-04-10T23:50:06.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "default1.vert",
-              "DocumentMoniker": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\default1.vert",
-              "RelativeDocumentMoniker": "default1.vert",
-              "ToolTip": "C:\\Users\\rjbur\\source\\repos\\OpenGL Project 1\\default1.vert",
-              "RelativeToolTip": "default1.vert",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-04-10T23:45:06.62Z",
-              "EditorCaption": ""
             }
           ]
         }
