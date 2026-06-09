@@ -152,6 +152,8 @@
     <None Include=".gitignore" />
     <None Include="default.frag" />
     <None Include="default1.vert" />
+    <None Include="light.frag" />
+    <None Include="light.vert" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />

@@ -54,6 +54,12 @@
       <Filter>Resource Files\ShaderResource</Filter>
     </None>
     <None Include=".gitignore" />
+    <None Include="light.vert">
+      <Filter>Resource Files\ShaderResource</Filter>
+    </None>
+    <None Include="light.frag">
+      <Filter>Resource Files\ShaderResource</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shaderClass.h">
