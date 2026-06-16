@@ -11,6 +11,7 @@ uniform vec4 lightColor;
 
 uniform vec3 lightPos;
 uniform vec3 camPos;
+uniform sampler2D tex1;
 
 in vec3 crntPos;
 void main()
@@ -26,6 +27,6 @@ void main()
    float specAmount = pow(max(dot(viewDirection,reflectionDirection),0.0f),8);
 
    float specular = specAmount * specularLight;
-   FragColor = texture(tex0, texCoord)*lightColor*(diffuse+ambient+specular);
+   FragColor = texture(tex0, texCoord)*lightColor*(diffuse+ambient)+ texture(tex1, texCoord).r *specular;
 
 }

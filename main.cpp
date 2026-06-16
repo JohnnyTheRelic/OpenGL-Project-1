@@ -178,9 +178,10 @@ int main()
 
 
 	Texture drinkWater("water.jpg", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGB, GL_UNSIGNED_BYTE);
-	drinkWater.texUnit(shaderProgram, "tex0", 0);
-
-	
+	Texture tiling("tiling.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
+	tiling.texUnit(shaderProgram, "tex0", 0);
+	Texture specularTiling("specular_tiling.png", GL_TEXTURE_2D, GL_TEXTURE1, GL_RED, GL_UNSIGNED_BYTE);
+	specularTiling.texUnit(shaderProgram,"tex1",1);
 	Camera camera(width, height, glm::vec3(0.0f, 0.0f, 2.0f));
 	// Main while loop
 	while (!glfwWindowShouldClose(window))
@@ -198,7 +199,8 @@ int main()
 		camera.Matrix( shaderProgram, "camMatrix");
 
 
-		drinkWater.Bind();
+		tiling.Bind();
+		specularTiling.Bind();
 		VAO1.Bind();
 		
 		glDrawElements(GL_TRIANGLES, sizeof(indices) / sizeof(int), GL_UNSIGNED_INT, 0);
@@ -224,7 +226,8 @@ int main()
 	VAO1.Delete();
 	VBO1.Delete();
 	EBO1.Delete();
-	drinkWater.Delete();
+	tiling.Delete();
+	
 	shaderProgram.Delete();
 	// Delete window before ending the program
 	glfwDestroyWindow(window);
