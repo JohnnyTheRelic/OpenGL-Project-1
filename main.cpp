@@ -155,9 +155,9 @@ int main()
 	lightVBO.Unbind();
 	lightEBO.Unbind();
 
-	glm::vec4 lightcolor = glm::vec4(1.0f, 1.0f, 1.0f, 1.0f);
+	
 
-	glm::vec4 lightColor = glm::vec4(1.0f, 1.0f, 1.0f, 1.0f);
+	glm::vec4 lightColor = glm::vec4(0.0f, 0.7f, 1.0f, 1.0f);
 	glm::vec3 lightPos = glm::vec3(0.5f, 0.5f, 0.5f);
 	glm::mat4 lightModel = glm::mat4(1.0f);
 	lightModel = glm::translate(lightModel, lightPos);
@@ -180,7 +180,7 @@ int main()
 	Texture drinkWater("water.jpg", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGB, GL_UNSIGNED_BYTE);
 	Texture tiling("tiling.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
 	tiling.texUnit(shaderProgram, "tex0", 0);
-	Texture specularTiling("specular_tiling.png", GL_TEXTURE_2D, GL_TEXTURE1, GL_RED, GL_UNSIGNED_BYTE);
+	Texture specularTiling("specular_tiling.png", GL_TEXTURE_2D, GL_TEXTURE1, GL_RGB, GL_UNSIGNED_BYTE);
 	specularTiling.texUnit(shaderProgram,"tex1",1);
 	Camera camera(width, height, glm::vec3(0.0f, 0.0f, 2.0f));
 	// Main while loop
