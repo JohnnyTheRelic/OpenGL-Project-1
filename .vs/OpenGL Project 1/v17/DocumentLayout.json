@@ -3,8 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Mesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:Mesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\default.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:default.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\default1.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:default1.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\vbo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:vbo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\VAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:VAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\EBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:EBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\EBO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:EBO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\VBO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:VBO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\shaderClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -15,32 +59,12 @@
       "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:shaderClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\light.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:light.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\vbo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:vbo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\EBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:EBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -51,16 +75,8 @@
       "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:stb.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\default1.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:default1.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\light.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:light.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\VAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:VAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\glad.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -75,10 +91,6 @@
       "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\VBO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:VBO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\VAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D92BBC0F-71CD-4779-8DB2-198214943BC2}|OpenGL Project 1.vcxproj|solutionrelative:VAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -90,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,15 +110,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Camera.h",
-              "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Camera.h",
-              "RelativeDocumentMoniker": "Camera.h",
-              "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Camera.h",
-              "RelativeToolTip": "Camera.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "EBO.h",
+              "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\EBO.h",
+              "RelativeDocumentMoniker": "EBO.h",
+              "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\EBO.h",
+              "RelativeToolTip": "EBO.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-02T01:21:42.978Z"
+              "WhenOpened": "2026-06-30T02:09:18.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Mesh.cpp",
+              "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Mesh.cpp",
+              "RelativeDocumentMoniker": "Mesh.cpp",
+              "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Mesh.cpp",
+              "RelativeToolTip": "Mesh.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAvwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-30T01:29:50.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mesh.h",
+              "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Mesh.h",
+              "RelativeDocumentMoniker": "Mesh.h",
+              "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Mesh.h",
+              "RelativeToolTip": "Mesh.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-30T01:28:41.811Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -116,35 +155,23 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAKYAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAswIUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-24T02:27:23.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "default.frag",
               "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\default.frag",
               "RelativeDocumentMoniker": "default.frag",
               "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\default.frag",
               "RelativeToolTip": "default.frag",
-              "ViewState": "AgIAACMAAAAAAAAAAAAswDMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAqwGEAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-04-10T23:50:06.557Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Camera.cpp",
-              "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Camera.cpp",
-              "RelativeDocumentMoniker": "Camera.cpp",
-              "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Camera.cpp",
-              "RelativeToolTip": "Camera.cpp",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADUAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-02T01:21:30.976Z"
             },
             {
               "$type": "Document",
@@ -154,61 +181,53 @@
               "RelativeDocumentMoniker": "EBO.cpp",
               "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\EBO.cpp",
               "RelativeToolTip": "EBO.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-10T23:55:02.746Z"
+              "WhenOpened": "2026-04-10T23:55:02.746Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "VBO.cpp",
               "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\VBO.cpp",
               "RelativeDocumentMoniker": "VBO.cpp",
               "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\VBO.cpp",
               "RelativeToolTip": "VBO.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-10T23:54:12.163Z"
+              "WhenOpened": "2026-04-10T23:54:12.163Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
               "Title": "default1.vert",
               "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\default1.vert",
               "RelativeDocumentMoniker": "default1.vert",
               "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\default1.vert",
               "RelativeToolTip": "default1.vert",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwCoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-04-10T23:45:06.62Z"
+              "WhenOpened": "2026-04-10T23:45:06.62Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "VAO.h",
-              "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\VAO.h",
-              "RelativeDocumentMoniker": "VAO.h",
-              "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\VAO.h",
-              "RelativeToolTip": "VAO.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-10T23:55:59.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 8,
               "Title": "VAO.cpp",
               "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\VAO.cpp",
               "RelativeDocumentMoniker": "VAO.cpp",
               "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\VAO.cpp",
               "RelativeToolTip": "VAO.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-10T23:56:24.104Z"
+              "WhenOpened": "2026-04-10T23:56:24.104Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -220,19 +239,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 11,
               "Title": "VBO.h",
               "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\VBO.h",
               "RelativeDocumentMoniker": "VBO.h",
               "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\VBO.h",
               "RelativeToolTip": "VBO.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-10T23:53:30.794Z"
+              "WhenOpened": "2026-04-10T23:53:30.794Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "stb.cpp",
               "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\stb.cpp",
               "RelativeDocumentMoniker": "stb.cpp",
@@ -244,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "CMakeLists.txt",
               "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\CMakeLists.txt",
               "RelativeDocumentMoniker": "CMakeLists.txt",
@@ -256,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "shaderClass.h",
               "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\shaderClass.h",
               "RelativeDocumentMoniker": "shaderClass.h",
@@ -264,12 +284,73 @@
               "RelativeToolTip": "shaderClass.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-10T23:51:45.172Z",
+              "WhenOpened": "2026-04-10T23:51:45.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Texture.h",
+              "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Texture.h",
+              "RelativeDocumentMoniker": "Texture.h",
+              "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Texture.h",
+              "RelativeToolTip": "Texture.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-15T22:21:52.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "Texture.cpp",
+              "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Texture.cpp",
+              "RelativeDocumentMoniker": "Texture.cpp",
+              "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Texture.cpp",
+              "RelativeToolTip": "Texture.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAswEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-15T22:22:01.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VAO.h",
+              "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\VAO.h",
+              "RelativeDocumentMoniker": "VAO.h",
+              "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\VAO.h",
+              "RelativeToolTip": "VAO.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-10T23:55:59.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Camera.cpp",
+              "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Camera.cpp",
+              "RelativeDocumentMoniker": "Camera.cpp",
+              "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Camera.cpp",
+              "RelativeToolTip": "Camera.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-02T01:21:30.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Camera.h",
+              "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Camera.h",
+              "RelativeDocumentMoniker": "Camera.h",
+              "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Camera.h",
+              "RelativeToolTip": "Camera.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-02T01:21:42.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "shaderClass.cpp",
               "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\shaderClass.cpp",
               "RelativeDocumentMoniker": "shaderClass.cpp",
@@ -277,12 +358,11 @@
               "RelativeToolTip": "shaderClass.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-10T23:52:48.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T23:52:48.794Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "light.vert",
               "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\light.vert",
               "RelativeDocumentMoniker": "light.vert",
@@ -294,31 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Texture.h",
-              "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Texture.h",
-              "RelativeDocumentMoniker": "Texture.h",
-              "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Texture.h",
-              "RelativeToolTip": "Texture.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-15T22:21:52.639Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Texture.cpp",
-              "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Texture.cpp",
-              "RelativeDocumentMoniker": "Texture.cpp",
-              "ToolTip": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\Texture.cpp",
-              "RelativeToolTip": "Texture.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-15T22:22:01.967Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "light.frag",
               "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\light.frag",
               "RelativeDocumentMoniker": "light.frag",
@@ -330,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "glad.c",
               "DocumentMoniker": "C:\\Users\\ew21h\\source\\repos\\OpenGL-Project-1\\glad.c",
               "RelativeDocumentMoniker": "glad.c",
