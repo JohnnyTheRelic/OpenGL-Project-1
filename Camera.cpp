@@ -60,10 +60,23 @@ void Camera::Inputs(GLFWwindow* window) {
 		speed = 0.1f;
 	}
 
+	bool left_mouse_is_pressed = glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT) == GLFW_PRESS;
 
-	if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT) == GLFW_PRESS) {
-		glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_HIDDEN);
+	if (left_mouse_is_pressed && !left_mouse_was_pressed) {
+		free_cam = !free_cam;
 
+		if (free_cam) {
+			glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_HIDDEN);
+			firstclick = true;
+		}
+		else {
+			glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
+		}
+	}
+	
+	left_mouse_was_pressed = left_mouse_is_pressed;
+
+	if (free_cam) {
 		// first click recenters mouse, firstclick resets when not pressed anymore
 		if (firstclick) {
 			glfwSetCursorPos(window, (width / 2), (height / 2));
@@ -72,7 +85,7 @@ void Camera::Inputs(GLFWwindow* window) {
 		double mouseX;
 		double mouseY;
 		glfwGetCursorPos(window, &mouseX, &mouseY);
-		
+
 		float rotX = sensitivity * (float)(mouseY - (height / 2)) / height;
 		float rotY = sensitivity * (float)(mouseX - (height / 2)) / height;
 
@@ -83,10 +96,6 @@ void Camera::Inputs(GLFWwindow* window) {
 			Orientation = newOrientation;
 		}
 		Orientation = glm::rotate(Orientation, glm::radians(-rotY), Up);
-		glfwSetCursorPos(window,(width / 2), (height / 2));
-	}
-	else if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT == GLFW_RELEASE)) {
-		glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
-		firstclick = true;
+		glfwSetCursorPos(window, (width / 2), (height / 2));
 	}
 }

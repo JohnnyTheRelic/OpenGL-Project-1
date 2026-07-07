@@ -19,6 +19,8 @@ public:
 	int width;
 	int height;
 	bool firstclick = true;
+	bool free_cam = false;
+	bool left_mouse_was_pressed = false;
 	float speed = 0.1f;
 	float sensitivity = 100.0f;
 	Camera(int width, int height, glm::vec3 position);
