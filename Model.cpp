@@ -15,3 +15,27 @@ std::vector<unsigned char> Model::getData() {
 	std::vector<unsigned char> data(bytesText.begin(), bytesText.end());
 	return data;
 }
+
+std::vector<float> Model::getFloats(json accessor) {
+	return {};
+}
+
+std::vector<GLuint> Model::getIndices(json accessor) {
+	return {};
+}
+
+std::vector<glm::vec2> Model::groupFloatsVec2(std::vector<float> floatVec) {
+	return {};
+}
+
+std::vector<glm::vec3> groupFloatsVec3(std::vector<float> floatVec) {
+	return {};
+}
+
+std::vector<glm::vec4> groupFloatsVec4(std::vector<float> floatVec) {
+	return {};
+}
+
+std::vector<Vertex> Model::assembleVertices(std::vector<glm::vec3> positions, std::vector<glm::vec3> normals, std::vector<glm::vec2> texUVs){
+	return {};
+}
