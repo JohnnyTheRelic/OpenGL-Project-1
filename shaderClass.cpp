@@ -4,6 +4,7 @@
 std::string get_file_contents(const char* filename)
 {
 	std::ifstream in(filename, std::ios::binary);
+	std::cout << "Opening: " << filename << '\n';
 	if (in)
 	{
 		std::string contents;
