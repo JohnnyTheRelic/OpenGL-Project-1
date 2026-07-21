@@ -54,7 +54,7 @@ vec4 pointLight()
 	return (texture(diffuse0, texCoord) * (diffuse * inten + ambient) + texture(specular0, texCoord).r * specular * inten) * lightColor;
 }
 
-vec4 direcLight()
+vec4 directLight()
 {
 	// ambient lighting
 	float ambient = 0.20f;
@@ -81,7 +81,7 @@ vec4 spotLight()
 	float innerCone = 0.95f;
 
 	// ambient lighting
-	float ambient = 0.80f;
+	float ambient = 0.20f;
 
 	// diffuse lighting
 	vec3 normal = normalize(Normal);
@@ -106,5 +106,5 @@ vec4 spotLight()
 void main()
 {
 	// outputs final color
-	FragColor = spotLight();
+	FragColor = directLight();
 }

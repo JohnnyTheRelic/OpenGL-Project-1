@@ -25,10 +25,11 @@ void Camera::updateMatrix(float FOVdeg, float nearPlane, float farPlane) {
 
 }
 void Camera::Inputs(GLFWwindow* window) {
-
+	
 	// basically wasd stuff and also space and ctrl for z axis. shift for velocity increase
 	if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
 	{
+		std::cout << "calling inputs " << std::endl;
 		Position += speed * Orientation;
 	}
 	if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)

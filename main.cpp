@@ -122,6 +122,7 @@ int main()
 		camera.updateMatrix(45.0f, 0.1f, 100.0f);
 		
 		model.Draw(shaderProgram, camera);
+		
 		/*GLenum err = glGetError();
 		if (err != GL_NO_ERROR)
 			std::cout << "GL Error: " << err << '\n';*/
