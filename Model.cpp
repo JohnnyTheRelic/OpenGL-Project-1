@@ -1,10 +1,11 @@
 #include "Model.h" 
-Model::Model(const char* file) {
+Model::Model(const char* file, float scale) : globalScale(scale) {
 	std::string text = get_file_contents(file);
 	JSON = json::parse(text);
 	Model::file = file;
 	data = getData();
 	traverseNode(0);
+	
 }
 void Model::Draw(Shader& shader, Camera& camera) {
 	for (unsigned int i = 0; i < meshes.size(); i++) {
@@ -103,7 +104,8 @@ void Model::traverseNode(unsigned int nextNode, glm::mat4 matrix)
 	// Initialize matrices
 	glm::mat4 trans = glm::mat4(1.0f);
 	glm::mat4 rot = glm::mat4(1.0f);
-	glm::mat4 sca = glm::mat4(1.0f);
+
+	glm::mat4 sca = glm::mat4(globalScale);
 
 	// Use translation, rotation, and scale to change the initialized matrices
 	trans = glm::translate(trans, translation);
