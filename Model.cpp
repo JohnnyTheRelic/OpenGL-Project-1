@@ -12,23 +12,46 @@ void Model::Draw(Shader& shader, Camera& camera) {
 	}
 }
 void Model::loadMesh(unsigned int indMesh) {
-	unsigned int posAccInd = JSON["meshes"][indMesh]["primitives"][0]["attributes"]["POSITION"];
-	unsigned int normalAccInd = JSON["meshes"][indMesh]["primitives"][0]["attributes"]["NORMAL"];
-	unsigned int texAccInd = JSON["meshes"][indMesh]["primitives"][0]["attributes"]["TEXCOORD_0"];
+	auto attributes = JSON["meshes"][indMesh]["primitives"][0]["attributes"];
+
+	unsigned int posAccInd = attributes["POSITION"];
 	unsigned int indAccInd = JSON["meshes"][indMesh]["primitives"][0]["indices"];
+
+
 
 	std::vector<float> posVec = getFloats(JSON["accessors"][posAccInd]);
 	std::vector<glm::vec3> positions = groupFloatsVec3(posVec);
-	std::vector<float> normalVec = getFloats(JSON["accessors"][normalAccInd]);
-	std::vector<glm::vec3> normals = groupFloatsVec3(normalVec);
-	std::vector<float> texVec = getFloats(JSON["accessors"][texAccInd]);
-	std::vector<glm::vec2> texUVs = groupFloatsVec2(texVec);
+
+	std::vector<glm::vec3> normals(positions.size(), glm::vec3(0.0f));
+
+	if (attributes.contains("NORMAL")) {
+		unsigned int normalAccInd = attributes["NORMAL"];
+		std::vector<float> normalVec = getFloats(JSON["accessors"][normalAccInd]);
+		normals = groupFloatsVec3(normalVec);
+	}
+
+
+	std::vector<glm::vec2> texUVs(positions.size(), glm::vec2(0.0f, 0.0f));
+	if (attributes.contains("TEXCOORD_0")) {
+		unsigned int texAccInd = attributes["TEXCOORD_0"];
+		std::vector<float> texVec = getFloats(JSON["accessors"][texAccInd]);
+		texUVs = groupFloatsVec2(texVec);
+	}
+	
+
 
 	std::vector<Vertex> vertices = assembleVertices(positions, normals, texUVs);
-	std::vector<GLuint> indices = getIndices(JSON["accessors"][indAccInd]);
+
+	std::cout << indAccInd << std::endl;
+	std::vector<GLuint> indices;
+	if (JSON["accessors"].size() > (indAccInd)) {
+		std::cout << JSON["accessors"].size() << "should "<< std::endl;
+		indices = getIndices(JSON["accessors"][indAccInd]);
+	}
 	std::vector<Texture> textures = getTextures();
 
 	meshes.push_back(Mesh(vertices, indices, textures));
+	
 }
 
 void Model::traverseNode(unsigned int nextNode, glm::mat4 matrix)
@@ -155,7 +178,7 @@ std::vector<GLuint> Model::getIndices(json accessor) {
 	unsigned int componentType = accessor["componentType"];
 
 	json bufferView = JSON["bufferViews"][buffViewInd];
-	unsigned int byteOffset = bufferView["byteOffset"];
+	unsigned int byteOffset = bufferView.value("byteOffset", 0);
 
 	unsigned int beginningOfData = byteOffset + accByteOffset;
 	if (componentType == 5125) {

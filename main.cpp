@@ -107,8 +107,8 @@ int main()
 	
 	Camera camera(width, height, glm::vec3(0.0f, 0.0f, 2.0f));
 
-	Model model("scene.gltf");
-
+	Model model("models/sphere/scene.gltf");
+	Model model2("models/bunny/scene.gltf");
 	// Main while loop
 	while (!glfwWindowShouldClose(window))
 	{
@@ -122,6 +122,7 @@ int main()
 		camera.updateMatrix(45.0f, 0.1f, 100.0f);
 		
 		model.Draw(shaderProgram, camera);
+		model2.Draw(shaderProgram, camera);
 		
 		/*GLenum err = glGetError();
 		if (err != GL_NO_ERROR)
