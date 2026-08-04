@@ -8,3 +8,6 @@ Release/
 *.ilk
 *.tlog
 *.idb
+*.tlog
+*.db
+*.obj
