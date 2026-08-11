@@ -1,2 +1,5 @@
-﻿  main.cpp
+﻿  Menu.cpp
+C:\Users\ew21h\source\repos\OpenGL-Project-1\Menu.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  main.cpp
+  Generating Code...
   OpenGL Project 1.vcxproj -> C:\Users\ew21h\Source\Repos\OpenGL-Project-1\x64\Debug\OpenGL Project 1.exe

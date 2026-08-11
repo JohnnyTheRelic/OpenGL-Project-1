@@ -1,5 +1,6 @@
 #include "Mesh.h"
 #include "Model.h"
+#include "Menu.h"
 const unsigned int width = 800;
 const unsigned int height = 800;
 
@@ -110,34 +111,35 @@ int main()
 	Model model("models/sphere/scene.gltf",0.4f);
 	/*Model model2("models/bunny/scene.gltf");*/
 	// Main while loop
-	while (!glfwWindowShouldClose(window))
-	{
-		// Specify the color of the background
-		glClearColor(0.07f, 0.13f, 0.17f, 1.0f);
-		// Clean the back buffer and assign the new color to it
-		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-		// Tell OpenGL which Shader Program we want to use
-		
-		camera.Inputs(window);
-		camera.updateMatrix(45.0f, 0.1f, 100.0f);
-		
-		model.Draw(shaderProgram, camera);
-		/*model2.Draw(shaderProgram, camera);*/
-		
-		/*GLenum err = glGetError();
-		if (err != GL_NO_ERROR)
-			std::cout << "GL Error: " << err << '\n';*/
-		
-		
-		
+	// 
+	Menu menu(window, camera,shaderProgram, { model });
+	menu.Run();
+	//while (!glfwWindowShouldClose(window))
+	//{
+	//	// Specify the color of the background
+	//	glClearColor(0.07f, 0.13f, 0.17f, 1.0f);
+	//	// Clean the back buffer and assign the new color to it
+	//	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+	//	// Tell OpenGL which Shader Program we want to use
+	//	
+	//	camera.Inputs(window);
+	//	camera.updateMatrix(45.0f, 0.1f, 100.0f);
+	//	
+	//	model.Draw(shaderProgram, camera);
+	//	/*model2.Draw(shaderProgram, camera);*/
+	//	
+	//	/*GLenum err = glGetError();
+	//	if (err != GL_NO_ERROR)
+	//		std::cout << "GL Error: " << err << '\n';*/
+	//	
+	//	
+	//	
 
-		// Bind the VAO so OpenGL knows to use it
-		
-		// Swap the back buffer with the front buffer
-		glfwSwapBuffers(window);
-		// Take care of all GLFW events
-		glfwPollEvents();
-	}
+	//	// Bind the VAO so OpenGL knows to use it
+	//	glfwSwapBuffers(window);
+	//	// Take care of all GLFW events
+	//	glfwPollEvents();
+	//}
 
 
 
